@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:300|Meddon');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather|Playfair+Display');
 h1 {
-  font-family: "Meddon", cursive;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Playfair+Display', serif;
+  letter-spacing: 10px;
+  padding-left: 20px;
 }
 h2 {
-  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Josefin+Sans', sans-serif;
+  padding-left: 20px;
+}
+body {
+  background-color: #fcf6ef;
 }
