@@ -91,10 +91,11 @@ body {
   opacity: 0.3;
 }
 .container:hover .text {
-  color: black; 
+  color: black;
+  font-weight: 300;
 }
 .text {
-  color: white;
+  color: black;
   font-size: 30px;
   font-family: 'Playfair+Display', serif;
   letter-spacing: 5px;
