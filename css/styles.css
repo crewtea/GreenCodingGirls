@@ -82,20 +82,18 @@ a:hover {
 }
 .text {
   color: white;
-<<<<<<< HEAD
   font-size: 30px;
   font-family: 'Playfair+Display', serif;
   letter-spacing: 5px;
-=======
   font-size: 25px;
   font-family: 'Josefin+Sans', sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
->>>>>>> 54cbf6bf5463df204146e04e54f1e908de63dc5e
   position: absolute;
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate (-50%, -50%);
   text-align: center;
 }
