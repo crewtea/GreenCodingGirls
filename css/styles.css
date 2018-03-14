@@ -17,6 +17,7 @@ dt {
   font-family: 'Playfair+Display', serif;
   font-size: 20px;
   font-weight: 300;
+  letter-spacing: 2px;
   text-align: center;
 }
 body {
@@ -52,6 +53,7 @@ body {
 a {
   font-size: 15px;
   font-family: 'Playfair+Display', serif;
+  font-weight: lighter;
   letter-spacing: 8px;
   color: #444444;
   text-align: center;
@@ -76,9 +78,10 @@ a:hover {
 }
 .text {
   color: white;
-  font-size: 30px;
-  font-family: 'Playfair+Display', serif;
-  letter-spacing: 5px; 
+  font-size: 25px;
+  font-family: 'Josefin+Sans', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
   position: absolute;
   top: 47%;
   left: 50%;
