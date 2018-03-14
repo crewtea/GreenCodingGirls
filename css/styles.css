@@ -29,14 +29,8 @@ body {
   margin-top: -10px;
   width: 100%;
 }
-ul.nav {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    position: fixed;
-    top: 0px;
-  }
+
+
 #navbar a {
   float: left;
   display: block;
@@ -56,12 +50,7 @@ ul.nav {
 .sticky + .content {
   padding-top: 60px;
 }
-ul.nav li a {
-    display: block;
-    padding: 10px;
-    background-color: #fcf6ef;
-    text-align: center;
-}
+
 a {
   font-size: 15px;
   font-family: 'Playfair+Display', serif;
