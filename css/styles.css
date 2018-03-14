@@ -14,7 +14,7 @@ h2 {
   padding-left: 20px;
 }
 dt {
-  font-family:  'Playfair+Display', serif;
+  font-family: 'Playfair+Display', serif;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
@@ -30,8 +30,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
-
 #navbar a {
   float: none;
   display: inline-block;
@@ -51,7 +49,6 @@ body {
 .sticky + .content {
   padding-top: 60px;
 }
-
 a {
   font-size: 15px;
   font-family: 'Playfair+Display', serif;
@@ -62,8 +59,11 @@ a {
 }
 a:hover {
   background-color: #fcf6ef;
+<<<<<<< HEAD
   color: black;
 
+=======
+>>>>>>> ac5dde4da020791e1da5ea750a6cdcd3dcb5fc8a
 }
 .overlay {
   position: absolute;
@@ -75,14 +75,15 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
 }
 .container:hover .overlay {
   opacity: 1;
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Playfair+Display', serif;
+  letter-spacing: 5px; 
   position: absolute;
   top: 47%;
   left: 50%;
