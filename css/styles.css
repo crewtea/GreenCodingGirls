@@ -113,3 +113,38 @@ dt {
   letter-spacing: 2px;
   text-align: center;
 }
+#footer-third: {
+  border-right: 1 px solid #fff;
+  max-height: 250px;
+}
+footer.one-third {
+  width: 33%;
+  margin-top: 2%;
+  margin-right: 0px;
+  margin-bottom: 2%;
+  margin-left: 0px;
+}
+.one-third {
+  width: 29%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+footer.name {
+  border-top: 1 px solid #fcf6ef;
+  max-height: 50px;
+  padding-bottom: 1%;
+  opacity: 0.8;
+}
+footer {
+  background: black;
+  overflow: hidden;
+}
+footer.name p {
+  text-align: center;
+  color: white;
+  font-family: 'Playfair+Display', serif;
+  text-transform: uppercase;
+  line-height: 190%;
+  font-size: 15px;
+}
