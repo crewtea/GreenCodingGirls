@@ -6,12 +6,15 @@ h1 {
   letter-spacing: 10px;
   padding-left: 20px;
   text-align: center;
+  padding-top: 60px;
+
 }
 h2 {
   font-size: 20px;
   font-weight: lighter;
-  font-family: 'Josefin+Sans', sans-serif;
-  padding-left: 20px;
+  font-family: 'Playfair+Display', serif;
+  margin-top: -8px;
+  text-align: center;
 }
 dt {
   font-family: 'Playfair+Display', serif;
@@ -43,7 +46,7 @@ body {
 }
 .sticky {
   position: fixed;
-  top: 0;
+  top: 20px;
   width: 100%;
 }
 .sticky + .content {
@@ -59,11 +62,7 @@ a {
 }
 a:hover {
   background-color: #fcf6ef;
-<<<<<<< HEAD
   color: black;
-
-=======
->>>>>>> ac5dde4da020791e1da5ea750a6cdcd3dcb5fc8a
 }
 .overlay {
   position: absolute;
@@ -83,7 +82,7 @@ a:hover {
   color: white;
   font-size: 30px;
   font-family: 'Playfair+Display', serif;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
   position: absolute;
   top: 47%;
   left: 50%;
