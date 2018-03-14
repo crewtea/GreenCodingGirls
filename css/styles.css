@@ -1,30 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather|Playfair+Display');
-h1 {
-  font-size: 35px;
-  font-weight: 300;
-  font-family: 'Playfair+Display', serif;
-  letter-spacing: 10px;
-  padding-left: 20px;
-  text-align: center;
-  padding-top: 60px;
 
-}
-h2 {
-  font-size: 15px;
-  font-weight: lighter;
-  font-family: 'Josefin+Sans', sans-serif;
-  letter-spacing: 3px;
-  margin-top: -5px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-dt {
-  font-family: 'Playfair+Display', serif;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-align: center;
-}
 body {
   background-color: #fcf6ef;
 }
@@ -32,7 +7,7 @@ body {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  margin-top: -10px;
+  margin-top: 0;
   width: 100%;
   text-align: center;
 }
@@ -53,7 +28,7 @@ body {
   width: 100%;
 }
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 60;
 }
 #navbar a {
   font-size: 15px;
@@ -109,5 +84,32 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Playfair+Display', serif;
+  letter-spacing: 10px;
+  padding-left: 20px;
+  text-align: center;
+  padding-top: 60px;
+
+}
+h2 {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Josefin+Sans', sans-serif;
+  letter-spacing: 3px;
+  margin-top: -5px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+dt {
+  font-family: 'Playfair+Display', serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
   text-align: center;
 }
