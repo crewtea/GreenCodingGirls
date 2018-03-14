@@ -13,9 +13,16 @@ h2 {
   font-family: 'Josefin+Sans', sans-serif;
   padding-left: 20px;
 }
+dt {
+  font-family:  'Playfair+Display', serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
 body {
   background-color: #fcf6ef;
 }
+<<<<<<< HEAD
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -23,6 +30,15 @@ body {
   margin-top: -10px;
   width: 100%;
 
+=======
+ul.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+>>>>>>> f12b249b34b2191577b4cf556bb72d30ee6e6933
 }
 #navbar a {
   float: left;
@@ -40,9 +56,17 @@ body {
   top: 0;
   width: 100%;
 }
+<<<<<<< HEAD
 
 .sticky + .content {
   padding-top: 60px;
+=======
+ul.nav li a {
+    display: block;
+    padding: 10px;
+    background-color: #fcf6ef;
+    text-align: center;
+>>>>>>> f12b249b34b2191577b4cf556bb72d30ee6e6933
 }
 
 a {
@@ -56,4 +80,29 @@ a {
 a:hover {
   background-color: #fcf6ef;
 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
