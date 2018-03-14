@@ -22,18 +22,25 @@ dt {
 body {
   background-color: #fcf6ef;
 }
-.nav {
-    list-style: none;
+
+ul.nav {
+    list-style-type: none;
     margin:0;
     padding:0;
-    text-align:center;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+
 }
-.nav li {
-    display: inline;
+ul.nav li {
+    float: left;
 }
-.nav a {
-    display:inline-block;
-    padding:10px;
+ul.nav li a {
+    display: block;
+    padding: 10px;
+    background-color: #fcf6ef;
+    text-align: center;
+
 }
 li a {
   font-size: 15px;
