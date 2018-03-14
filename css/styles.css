@@ -55,16 +55,16 @@ body {
 .sticky + .content {
   padding-top: 60px;
 }
-a {
+#navbar a {
   font-size: 15px;
   font-family: 'Josefin+Sans', sans-serif;
   font-weight: lighter;
   letter-spacing: 8px;
-  color: #444444;
+  color: white;
   text-align: center;
   text-decoration: none;
 }
-a:hover {
+#navbar a:hover {
   background-color: #fcf6ef;
   color: black;
 }
