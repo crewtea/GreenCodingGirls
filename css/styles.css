@@ -28,11 +28,6 @@ body {
   position: fixed;
   margin-top: -10px;
   width: 100%;
-<<<<<<< HEAD
-
-
-}
-=======
 }
 ul.nav {
     list-style-type: none;
@@ -42,7 +37,6 @@ ul.nav {
     position: fixed;
     top: 0px;
   }
->>>>>>> aea24661e3c26a61ab602384a1eaeb73a6262a4c
 #navbar a {
   float: left;
   display: block;
@@ -59,15 +53,6 @@ ul.nav {
   top: 0;
   width: 100%;
 }
-<<<<<<< HEAD
-
-
-.sticky + .content {
-  padding-top: 60px;
-
-}
- a {
-=======
 .sticky + .content {
   padding-top: 60px;
 }
@@ -78,7 +63,6 @@ ul.nav li a {
     text-align: center;
 }
 a {
->>>>>>> aea24661e3c26a61ab602384a1eaeb73a6262a4c
   font-size: 15px;
   font-family: 'Playfair+Display', serif;
   letter-spacing: 8px;
