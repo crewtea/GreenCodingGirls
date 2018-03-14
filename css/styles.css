@@ -28,17 +28,18 @@ body {
   position: fixed;
   margin-top: -10px;
   width: 100%;
+  text-align: center;
 }
 #navbar a {
-  float: left;
-  display: block;
+  float: none;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 .content {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .sticky {
   position: fixed;
