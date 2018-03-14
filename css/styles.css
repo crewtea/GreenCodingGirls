@@ -22,16 +22,27 @@ dt {
 body {
   background-color: #fcf6ef;
 }
-<<<<<<< HEAD
 #navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   margin-top: -10px;
   width: 100%;
+<<<<<<< HEAD
 
 
 }
+=======
+}
+ul.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+  }
+>>>>>>> aea24661e3c26a61ab602384a1eaeb73a6262a4c
 #navbar a {
   float: left;
   display: block;
@@ -48,6 +59,7 @@ body {
   top: 0;
   width: 100%;
 }
+<<<<<<< HEAD
 
 
 .sticky + .content {
@@ -55,6 +67,18 @@ body {
 
 }
  a {
+=======
+.sticky + .content {
+  padding-top: 60px;
+}
+ul.nav li a {
+    display: block;
+    padding: 10px;
+    background-color: #fcf6ef;
+    text-align: center;
+}
+a {
+>>>>>>> aea24661e3c26a61ab602384a1eaeb73a6262a4c
   font-size: 15px;
   font-family: 'Playfair+Display', serif;
   letter-spacing: 8px;
