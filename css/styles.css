@@ -61,6 +61,11 @@ a {
 }
 a:hover {
   background-color: #fcf6ef;
+<<<<<<< HEAD
+  color: black;
+
+=======
+>>>>>>> ac5dde4da020791e1da5ea750a6cdcd3dcb5fc8a
 }
 .overlay {
   position: absolute;
