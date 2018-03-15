@@ -107,6 +107,7 @@ h2 {
   margin-bottom: 40px;
   text-align: center;
 }
+
 dt {
   font-family: 'Playfair+Display', serif;
   font-size: 20px;
@@ -117,10 +118,6 @@ dt {
 footer {
 	background: black;
 	overflow: hidden;
-  color: white;
-  text-align: center;
-  font-family: 'Playfair+Display', serif;
-  font-size: 15px;
 }
 #footer-inner {
 	max-width: 1200px;
@@ -131,35 +128,40 @@ footer .one-third {
 	margin: 2% 0;
 }
 footer h3 {
-	color: #fff;
+	color: white;
 }
 footer p {
-	color: #fff;
+	color: white;
 	text-align: center;
 }
 #footer-third {
 	border-right: 1px solid #fff;
-	max-height: 250px;
-	min-height:;
+  text-align: center;
+  color: white;
+
 }
 footer a {
 	color: #fff;
 	text-decoration: none;
+  color: white;
 }
 .social li {
 	display: inline;
+  color: white;
 }
 .social i {
 	font-size: 245%;
 	padding: 2% 6%;
-	color: #fff;
+	color: white
+;
 }
 .social i:hover {
-	color: #fff;
+	color: white;
 }
-h5 a:hover {
+
+h5 :hover {
 	text-decoration: none;
-	color: #fff;
+	color: white;
 
 }
 
