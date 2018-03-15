@@ -15,12 +15,13 @@
      <a href='./about.html'>ABOUT</a>
      <a href='./map.html'>MAP</a>
   </div>
+</div>
 
-  <h3> Google Maps Demo</h3>
+  <h3 class='titleinvisible'> Google Maps Demo</h3>
       <div id="map"></div>
 
-      <script>
-      function initMap() {
+<script>
+  function initMap() {
 
 var press = {
 info: '<strong>Press Coffee Fleet Street</strong><br>\
@@ -130,12 +131,41 @@ google.maps.event.addListener(marker, 'click', (function (marker, i) {
 })(marker, i));
 }
 }
-        </script>
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU8sgNlINKI6gCDpLTJZVnSWcnUcscduU
+&callback=initMap"></script>
 
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU8sgNlINKI6gCDpLTJZVnSWcnUcscduU
-&callback=initMap">
-        </script>
+<footer>
+    <div id="footer-inner">
+      <section class="one-third" id="footer-third">
+        <h3>Coffee Fan Too?</h3>
+        <p class="footercontact">Why not recommend us some places?<br>
+          <b class="recommend"><a href='./about.html'>your recommendations</a></b>
+        </p>
+      </section>
+      <section class="one-third" id="footer-third">
+        <h3>Connect With Us</h3>
+        <br>
+          <ul class ="socials">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+      </section>
+      <section class="one-third" id="footer-third-last">
+        <h3>Something here</h3>
+        <br>
+        <h5>
+          some coffee quote? or about us?
+        </h5>
+      </section>
+    </div>
 
+</section>
+  </footer>
+
+  <footer class="second">
+    <p>&copy; LSE Coffee Lovers, 2018.</p>
+  </footer>
 </body>
 </html>
