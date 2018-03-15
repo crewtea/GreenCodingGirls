@@ -118,6 +118,8 @@ dt {
 footer {
 	background: black;
 	overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 #footer-inner {
 	max-width: 1200px;
@@ -154,6 +156,7 @@ footer a {
 	padding: 2% 6%;
 	color: white
 ;
+
 }
 .social i:hover {
 	color: white;
@@ -171,3 +174,11 @@ footer.second {
 		padding-bottom: 1%;
 		opacity: 0.8;
 	}
+
+
+  #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+   margin-top: 40px;
+ }
