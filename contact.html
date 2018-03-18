@@ -3,30 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coffee Around LSE</title>
+  <title>Coffee Around LSE - Contact</title>
   <link href='css/bootstrap.min.css' rel='stylesheet'>
   <link href='css/styles.css' rel='stylesheet'>
 </head>
-
 <body>
-  <div class='wrapper'>
+  <header>
+<!-- nav bar -->
     <div id='navbar'>
       <a href='./index.html'>HOME</a>
-      <a href='./about.html'>ABOUT</a>
+      <a href='./contact.html'>CONTACT</a>
       <a href='./map.html'>MAP</a>
     </div>
+<!-- /nav bar -->
+  </header>
+  <h2=class 'titleinvisible'>CONTACT US</h2>
+<!--  form -->
+<div class="container">
+  <div style="text-align:center">
+    <h3>CONTACT US</h3>
+    <p>Love coffee shops as well? Want to share your favourites? Leave us a message!</p>
   </div>
-
-  <h2=class 'titleinvisible'>ABOUT US</h2>
-  <h3> fun fun fun content</h3>
-  <h4> more fun content</h4>
-
+  <div class="row">
+    <div class="column">
+      <img class='img-responsive' src='images/3.jpg' style="width:95%;height:750px;padding-bottom:30px;">
+    </div>
+    <div class="column">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email adress...">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+    </div>
+  </div>
+</div>
+<!-- /form -->
+<!-- footer -->
   <footer>
   		<div id="footer-inner">
   			<section class="one-third" id="footer-third">
   				<h3>Coffee Fan Too?</h3>
-  				<p class="footercontact">Why not recommend us some places?<br>
-  					<b class="recommend"><a href='./about.html'>your recommendations</a></b>
+  				<p class="footer">Why not recommend us some places?<br>
+  					<b class="recommend"><a href='./contact.html'>your recommendations</a></b>
           </p>
   			</section>
   			<section class="one-third" id="footer-third">
@@ -46,13 +66,11 @@
   				</h5>
   			</section>
   		</div>
-
   </section>
   	</footer>
-
   	<footer class="second">
   		<p>&copy; LSE Coffee Lovers, 2018.</p>
   	</footer>
-
+<!-- /footer -->
 </body>
 </html>

@@ -17,7 +17,7 @@ function topFunction() {
 function initMap() {
 
 var press = {
-info: '<strong>Press Coffee Fleet Street</strong><br>\
+info: '<strong>The Fleet Street Press</strong><br>\
     6 min walk from LSE Library<br>\
     <a href="http://www.presscoffee.london/">Visit the Website</a>',
 lat: 51.513632,
@@ -58,7 +58,7 @@ long: -0.123997
 
 var prufrock = {
 info: '<strong>Prufrock</strong><br>\
-    10 min walk from 32 LincolnsInn<br>\
+    10 min walk from 32 Lincolns Inn<br>\
     <a href="https://www.prufrockcoffee.com/">Visit the Website</a>',
 lat: 51.519895,
 long: -0.109519
@@ -73,8 +73,8 @@ long: -0.124047
 };
 
 var department = {
-info: '<strong>Department of Coffee and Social Affairse</strong><br>\
-    10 min walk from 32 LincolnsInn<br>\
+info: '<strong>Department of Coffee and Social Affairs</strong><br>\
+    10 min walk from 32 Lincolns Inn<br>\
     <a href="https://departmentofcoffee.com/">Visit the Website</a>',
 lat: 51.519400,
 long: -0.109011
