@@ -8,7 +8,7 @@ body {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  margin-top: 0px;
+  margin-top: 0 auto;
   width: 100%;
   text-align: center;
   z-index: 99999;
@@ -20,6 +20,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+
 }
 .content {
   margin-top: 0;
@@ -227,6 +228,7 @@ footer.second {
      margin-top: 5px;
      margin-bottom: 20px;
      resize: vertical;
+
  }
  input[type=submit] {
      background-color: #555;
@@ -251,6 +253,7 @@ input[type=submit]:hover {
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
+
   }
 #quote {
   font-size: 20px;
@@ -298,6 +301,7 @@ input[type=submit]:hover {
      display: table;
      clear: both;
  }
+
  @media screen and (max-width: 600px) {
      .column, input[type=submit] {
          width: 100%;
