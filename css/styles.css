@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Meddon|Playfair+Display');
 
 body {
   background-color: #fcf6ef;
@@ -216,7 +216,7 @@ footer.second {
    background-color: grey;
    margin-top: 20px;
  }
-/* contact form */
+/* about page */
  * {
      box-sizing: border-box;
  }
@@ -243,6 +243,32 @@ input[type=submit]:hover {
      background-color: white;
      color: #555;
 }
+#about-title {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Playfair+Display', serif;
+  letter-spacing: 8px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  }
+#quote {
+  font-size: 20px;
+  font-family: 'Meddon', cursive;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 19px;
+}
+#us {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: -10px;
+}
+#suggestion {
+  margin-top: -25px;
+  text-align: justify;
+  font-size: 14px;
+}
 #name {
   font-size: 13px;
   font-family: 'Josefin+Sans', sans-serif;
@@ -265,6 +291,7 @@ input[type=submit]:hover {
      float: left;
      width: 50%;
      margin-top: 6px;
+     padding: 20px;
  }
  .row:after {
      content: "";
