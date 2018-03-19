@@ -20,7 +20,6 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-
 }
 .content {
   margin-top: 0;
@@ -89,8 +88,6 @@ body {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   text-align: center;
-
-
 }
 h1 {
   font-size: 45px;
@@ -290,5 +287,5 @@ input[type=submit]:hover {
      .column, input[type=submit] {
          width: 100%;
          margin-top: 0;
-     }
+    }
  }
