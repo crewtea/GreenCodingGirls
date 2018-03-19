@@ -8,7 +8,7 @@ body {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  margin-top: 0px;
+  margin-top: 0 auto;
   width: 100%;
   text-align: center;
   z-index: 99999;
@@ -20,6 +20,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+
 }
 .content {
   margin-top: 0;
@@ -59,6 +60,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .9s ease;
+
 }
 .container:hover .overlay {
   opacity: 1;
@@ -70,7 +72,9 @@ body {
   color: black;
   font-weight: 300;
   font-size: 25px;
+  opacity: 1;
 }
+
 .text {
   font-family: 'Playfair+Display', serif;
   letter-spacing: 5px;
@@ -83,6 +87,8 @@ body {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   text-align: center;
+
+
 }
 h1 {
   font-size: 45px;
@@ -90,7 +96,7 @@ h1 {
   font-family: 'Playfair+Display', serif;
   letter-spacing: 10px;
   text-align: center;
-  padding-top: 70px;
+  margin-top: 60px;
 }
 h2 {
   font-size: 15px;
@@ -157,64 +163,38 @@ dt {
     background-color: white;
     color: #555;
 }
+/* footer */
 footer {
 	background: #333;
 	overflow: hidden;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-#footer-inner {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-footer .one-third {
-	width: 33%;
-	margin: 2% 0;
-}
-footer h3 {
-	color: white;
-}
-footer p {
-	color: white;
-	text-align: center;
-}
-#footer-third {
-	border-right: 1px solid #fff;
+#footertext {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
+  margin-bottom: -2px;
+  letter-spacing: 5px;
 }
-footer a {
-	color: #fff;
-	text-decoration: none;
-  color: white;
-}
-.social li {
-	display: inline;
-  color: white;
-}
-.social i {
-	font-size: 245%;
-	padding: 2% 6%;
-	color: white;
-}
-.social i:hover {
-	color: white;
-}
-h5 :hover {
-	text-decoration: none;
-	color: white;
-}
-footer.second {
-		border-top: 4px solid #fff;
-		max-height: 40px;
-		padding-bottom: 1%;
-		opacity: 0.8;
-	}
   #map {
    width: 100%;
    height: 600px;
    background-color: grey;
-   margin-top: 20px;
+   margin-top: 0px;
+ }
+ #map-title {
+ font-size: 30px;
+ font-weight: 300;
+ font-family: 'Playfair+Display', serif;
+ letter-spacing: 5px;
+ margin-top: 70px;
+ margin-bottom: 25px;
+ text-align: center;
  }
 /* about page */
  * {
@@ -227,6 +207,7 @@ footer.second {
      margin-top: 5px;
      margin-bottom: 20px;
      resize: vertical;
+
  }
  input[type=submit] {
      background-color: #555;
@@ -244,13 +225,14 @@ input[type=submit]:hover {
      color: #555;
 }
 #about-title {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 300;
   font-family: 'Playfair+Display', serif;
   letter-spacing: 8px;
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
+
   }
 #quote {
   font-size: 20px;
@@ -265,7 +247,8 @@ input[type=submit]:hover {
   margin-top: -10px;
 }
 #suggestion {
-  margin-top: -25px;
+  margin-top: -30px;
+  margin-bottom: 55px;
   text-align: justify;
   font-size: 14px;
 }
@@ -298,6 +281,7 @@ input[type=submit]:hover {
      display: table;
      clear: both;
  }
+
  @media screen and (max-width: 600px) {
      .column, input[type=submit] {
          width: 100%;

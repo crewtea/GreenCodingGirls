@@ -6,7 +6,12 @@
   <title>Coffee Around LSE - Home</title>
   <link href='css/bootstrap.min.css' rel='stylesheet'>
   <link href='css/styles.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css">
   <script src='js/javascript.js'></script>
+  <script src="assets/js/jquery-2.1.0.min.js"></script>
+  <script src="assets/js/hexagons.min.js"></script>
+  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/tasty-bites-icon-set/128/coffee.png">
 </head>
 <body>
 <header>
@@ -16,10 +21,13 @@
      <a href='./about.html'>ABOUT</a>
      <a href='./map.html'>MAP</a>
   </div>
-<!-- nav bar -->
 </header>
+<div class="container">
+  <div style="text-align:center">
   <h1>COFFEE AROUND LSE</h1>
   <h2>BORED OF LSE CAFES? VENTURE AROUND!</h2>
+</div>
+</div>
 <!--coffee shops-->
   <div class='container'>
   <div class='row'>
@@ -27,7 +35,7 @@
       <dl style="list-style-type:none">
         <img class="img-responsive image" src="images/fleetpress.jpg">
         <dt>The Fleet Street Press</dt>
-      <div class='overlay'>
+        <div class='overlay'>
         <div class='text'>Great for: study space, hanging out</div>
       </div>
     </dl>
@@ -110,41 +118,15 @@
     </div>
   </div>
 </div>
-
 <button onclick="topFunction()" id="myBtn" title="Go to top">GO TO TOP</button>
-
 <!-- footer -->
 <footer>
-		<div id="footer-inner">
-			<section class="one-third" id="footer-third">
-				<h3>Coffee Fan Too?</h3>
-				<p class="footercontact">Why not recommend us some places?<br>
-					<b class="recommend"><a href='./about.html'>your recommendations</a></b>
-        </p>
-			</section>
-			<section class="one-third" id="footer-third">
-				<h3>Connect With Us</h3>
-				<br>
-					<ul class ="socials">
-						<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-						<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-			</section>
-			<section class="one-third" id="footer-third-last">
-				<h3>Something here</h3>
-				<br>
-				<h5>
-					some coffee quote? or about us?
-				</h5>
-			</section>
-		</div>
-
-</section>
-	</footer>
-
-	<footer class="second">
-		<p>&copy; LSE Coffee Lovers, 2018.</p>
-	</footer>
+  <p id='footertext'>CONNECT WITH US</p>
+  <a href="https://www.facebook.com/"><span class="hb hb-xs spin-icon inv"><i class="fa fa-facebook"></i></span></a>
+  <a href="https://twitter.com/"><span class="hb hb-xs spin-icon inv"><i class="fa fa-twitter"></i></span></a>
+  <a href="https://plus.google.com/discover"><span class="hb hb-xs spin-icon inv"><i class="fa fa-google-plus"></i></span></a>
+	<a href="https://www.youtube.com/"><span class="hb hb-xs spin-icon inv"><i class="fa fa-youtube"></i></span></a>
+  <a href="https://en.wikipedia.org/wiki/RSS"><span class="hb hb-xs spin-icon inv"><i class="fa fa-rss-square"></i></span></a>
+</footer>
 </body>
 </html>
