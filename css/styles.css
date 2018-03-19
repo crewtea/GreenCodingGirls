@@ -286,7 +286,9 @@ input[type=submit]:hover {
 .item-active {
   margin: auto;
 }
-
+#myCarousel {
+  margin:auto;
+}
  @media screen and (max-width: 600px) {
      .column, input[type=submit] {
          width: 100%;
