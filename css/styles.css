@@ -20,6 +20,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+
 }
 .content {
   margin-top: 0;
@@ -88,6 +89,8 @@ body {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   text-align: center;
+
+
 }
 h1 {
   font-size: 45px;
@@ -95,7 +98,7 @@ h1 {
   font-family: 'Playfair+Display', serif;
   letter-spacing: 10px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 h2 {
   font-size: 15px;
@@ -283,9 +286,10 @@ input[type=submit]:hover {
 .item-active {
   margin: auto;
 }
+
  @media screen and (max-width: 600px) {
      .column, input[type=submit] {
          width: 100%;
          margin-top: 0;
-    }
+     }
  }
