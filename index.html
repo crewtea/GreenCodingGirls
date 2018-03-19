@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coffee Around LSE - Home</title>
+  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/tasty-bites-icon-set/128/coffee.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href='css/bootstrap.min.css' rel='stylesheet'>
   <link href='css/styles.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -11,7 +13,8 @@
   <script src='js/javascript.js'></script>
   <script src="assets/js/jquery-2.1.0.min.js"></script>
   <script src="assets/js/hexagons.min.js"></script>
-  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/tasty-bites-icon-set/128/coffee.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <header>
@@ -22,6 +25,40 @@
      <a href='./map.html'>MAP</a>
   </div>
 </header>
+<!-- carousel -->
+<div class="container">
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:1200px;margin:0 auto;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="./images/5.jpg" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="./images/6.jpg" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="./images/7.jpg" style="width:100%;">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- page content -->
 <div class="container">
   <div style="text-align:center">
   <h1>COFFEE AROUND LSE</h1>
@@ -103,7 +140,7 @@
         <img class="img-responsive image" src="images/department-of-coffee-and-social-affairs-bristol-counter-1486487000.jpg">
         <dt>Department of Coffee and Social Affairs</dt>
         <div class='overlay'>
-        <div class='text'>Great for: study meetings, hot chocolate </div>
+        <div class='text'>Great for: study meetings, hot chocolate</div>
       </div>
       </dl>
     </div>
